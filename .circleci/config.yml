@@ -9,5 +9,6 @@ jobs:
       - run: npm start
 workflows:
   version: 2
-  b:
-    jobs: build
+  build__workflow:
+    jobs:
+      - build
